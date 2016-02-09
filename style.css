@@ -1,12 +1,17 @@
 body {
-  margin: 0;
   padding: 0;
+  background-image: url("fond.jpg");
 }
-.description_terrain {
-  font-family: helvetica;
+.logo {
+  margin-top: 20px;
+}
+.all {
+  margin-top: 20px;
 }
 .description {
-      border-bottom: 1px solid grey;
+      background-color:rgba(192,192,192,0.3);
+      border-radius: 0px 0px 7px 7px;
+      padding: 2px;
 }
 .terrain {
   height: 300px;
@@ -14,6 +19,8 @@ body {
   background-image:url("stade.jpg");
   background-repeat: no-repeat;
   background-size: contain;
+
+
 }
 .titre {
   font-weight: bold;
@@ -35,4 +42,17 @@ body {
     left: 0;
     width: 100%
     height: 100%
+}
+.meteo {
+  width: 500px;
+  background-color: rgba(192,192,192,0.3);
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  padding: 2px;
+}
+.meteo iframe {
+  height: 85;
+  frameborder: 0;
+  width=510;
+  scrolling=no;
 }
