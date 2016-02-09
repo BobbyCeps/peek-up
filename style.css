@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.description_terrain {
+  font-family: helvetica;
+}
+.description {
+      border-bottom: 1px solid grey;
+}
+.terrain {
+  height: 300px;
+  padding-top: 30px;
+  background-image:url("stade.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.titre {
+  font-weight: bold;
+}
+.shema {
+  width: 75px;
+  margin-left: 10%
+}
+.google-maps {
+    margin-top: 5px;
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+    height: 100%
+}
